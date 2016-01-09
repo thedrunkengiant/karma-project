@@ -4,6 +4,10 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+body,h2,h3 {
+	font-family: 'Roboto', sans-serif;
+	color:white;
+}
 
 /*=================================================================
 Navigation Section
@@ -11,20 +15,25 @@ Navigation Section
 .top-navigation {
 	background-color: #fff;
 	width: 100%;
+	position:fixed;
 }
 
-.top-navigation, .links {
+.links {
 	float:right;
 }
 .top-navigation .links > .active {
     color: #4c5058;
     font-weight: 500;
 }
+.top-navigation > .content {
+	height: 70px;
+}
 .content {
-	width: 960px;
+	width: 970px;
 	padding: 0px 15px;
 	margin: 0px auto;
-	
+	width: 60%;
+	/* The original page had a media query that applied the 60% width to it*/
 }
 
 .content > img {
@@ -46,3 +55,52 @@ Navigation Section
 	 cursor: pointer; 
 	 cursor: hand; 
 }
+
+/*=================================================================
+Introduction section
+=================================================================*/
+
+.introduction {  
+	background-image: url('../images/first-background.jpg');
+	background-position: center bottom;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:45.938rem;
+	overflow:auto;
+}
+
+.content > h2,
+.content > h3,
+button {
+	text-align: center;
+}
+
+.content > h2 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+	margin-bottom: -1px;
+}
+
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+    display: block;
+	margin: 0 auto;
+	width: 9.688rem;
+	background-color: #f15a29;
+	border-color:#f15a29;
+	border-style: none;
+	border-radius:4px;
+	padding:1rem 1.5rem;
+	font-size: 1.125rem;
+	margin-top: 30px;
+}
+.big-button:hover {
+	 cursor: pointer; 
+	 cursor: hand;
+	 background-color:#D9400E; 
+}
+
