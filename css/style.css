@@ -6,7 +6,6 @@ html {
 }
 body,h2,h3 {
 	font-family: 'Roboto', sans-serif;
-	color:white;
 }
 
 /*=================================================================
@@ -14,9 +13,10 @@ Navigation Section
 =================================================================*/
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
 	width: 100%;
-	position:fixed;
-}
+	z-index: 9999;
+	}
 
 .links {
 	float:right;
@@ -64,7 +64,7 @@ Introduction section
 	background-image: url('../images/first-background.jpg');
 	background-position: center bottom;
 	background-repeat:no-repeat;
-	background-size:cover;
+	background-size: cover;
 	height:45.938rem;
 	overflow:auto;
 }
@@ -73,6 +73,7 @@ Introduction section
 .content > h3,
 button {
 	text-align: center;
+	color:white;
 }
 
 .content > h2 {
@@ -103,4 +104,39 @@ button {
 	 cursor: hand;
 	 background-color:#D9400E; 
 }
+.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 4em;
+    margin-right: -4px;
+}
+#black-font{
+	color:black;
+}
 
+.devices >img {
+	text-align: center;
+}
+
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+    margin:0;
+}
+
+hr {
+    display: block;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    border-style: inset;
+    border-width: 1px;
+}
