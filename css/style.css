@@ -140,3 +140,19 @@ hr {
     border-style: inset;
     border-width: 1px;
 }
+.twitter {
+	color:#55acee;
+}
+.facebook {
+	color:#4c66a4;
+}
+.instagram {
+	color: #3f729b;
+}
+
+.twitter:hover, 
+.facebook:hover, 
+.instagram:hover {
+	 cursor: pointer; 
+	 cursor: hand;
+}
