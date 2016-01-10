@@ -32,7 +32,7 @@ Navigation Section
 	width: 970px;
 	padding: 0px 15px;
 	margin: 0px auto;
-	width: 60%;
+	text-align: center;
 	/* The original page had a media query that applied the 60% width to it*/
 }
 
@@ -80,6 +80,12 @@ button {
 	margin-top: 17.5rem;
 	font-size: 3.125rem;
 	margin-bottom: -1px;
+	font-weight:300;
+}
+.content > h3 {
+	font-weight: 300;
+	 margin-top: 1.25rem;
+    font-size: 1.563rem;
 }
 
 .big-button {
@@ -97,7 +103,13 @@ button {
 	border-radius:4px;
 	padding:1rem 1.5rem;
 	font-size: 1.125rem;
-	margin-top: 30px;
+	color:white;
+}
+.cases{
+	padding-bottom: 7rem;
+}
+.cases .content{
+	margin-top: 7.875rem;
 }
 .big-button:hover {
 	 cursor: pointer; 
@@ -113,6 +125,9 @@ button {
 }
 #black-font{
 	color:black;
+	margin:1.625rem 0 3.125rem;
+	font-size: 2.75rem;
+	font-weight: 300;
 }
 
 .devices >img {
@@ -130,6 +145,11 @@ button {
     text-align: center;
     margin:0;
 }
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+}
 
 hr {
     display: block;
@@ -138,7 +158,29 @@ hr {
     -webkit-margin-start: auto;
     -webkit-margin-end: auto;
     border-style: inset;
-    border-width: 1px;
+     border-top: 1px solid #eaebec;
+}
+h5 {
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+.icons {
+padding-left: 0;
+
+}
+.social .icons > li{
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
 }
 .twitter {
 	color:#55acee;
